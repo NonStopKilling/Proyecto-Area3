@@ -103,8 +103,8 @@
 
                 <br />
                 <div>
-                  <!-- Tampoco supe como dejar que el botón quedase activo -->
-                  
+                  <!-- Tampoco supe como dejar que el botón quedase activo, al parecer debo usar esto v-for="item in items" v-bind:key="item.id" -->
+
                 <nav class="nav nav-pills flex-column flex-sm-row">
                     <button class="flex-sm-fill text-sm-centeractive btn btn-outline-primary p-2" href="#" v-for="fruta of frutas" >{{fruta}}</button>
                 </nav>
